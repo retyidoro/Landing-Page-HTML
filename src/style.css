@@ -32,6 +32,7 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
 .list {
   width: 100%;
@@ -73,6 +74,23 @@
   border-width: 1px;
   border-radius: 4px;
   background-color: var(--dl-color-gray-white);
+}
+
+.text-divider\:\:after {
+  content: aaa;
+  background-color: silver;
+}
+.text-divider1 {
+  color: red;
+  content: "Read this -";
+}
+.paa {
+  color: red;
+  content: "Read this -";
+}
+.button\:\:after {
+  content: "asdedf";
+  background-color: blue;
 }
 .section-Text {
   font-size: 18px;
@@ -135,3 +153,13 @@
   text-transform: none;
   text-decoration: none;
 }
+@media(max-width: 1600px) {
+  .button\:\:after {
+    width: 91px;
+    height: 64px;
+  }
+}
+
+
+
+
